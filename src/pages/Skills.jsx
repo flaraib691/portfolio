@@ -8,7 +8,7 @@ function Skills() {
     "Node.js",
     "Express.js",
     "MongoDB",
-    "MySQL",
+    "SQL",
     "Git",
     "GitHub"
   ];

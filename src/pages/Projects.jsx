@@ -1,3 +1,4 @@
+
 function Projects() {
     const projects = [
         {
@@ -7,11 +8,13 @@ function Projects() {
         },
         {
             title: "E-Commerce Website",
-            desc: "Full Stack Shopping Website"
+            desc: "Full Stack Shopping Website",
+            link: "https://eco-vite.netlify.app"
         },
         {
             title: "Portfolio Website",
-            desc: "Modern React Portfolio"
+            desc: "Modern React Portfolio",
+            link: "https://httpsportfolionetlify.netlify.app/"
         }
     ];
 
@@ -24,6 +27,16 @@ function Projects() {
                     <div className="project-card" key={index}>
                         <h3>{project.title}</h3>
                         <p>{project.desc}</p>
+
+                        {project.link && (
+                            <a
+                                href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Live Demo
+                            </a>
+                        )}
                     </div>
                 ))}
             </div>
