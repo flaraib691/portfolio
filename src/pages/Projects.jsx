@@ -2,11 +2,6 @@
 function Projects() {
     const projects = [
         {
-            title: "Blood Donation System",
-            desc: `A full-stack MERN application that connects blood donors with recipients.
-             It allows users to register as donors , search donors by bloog-group and locations.`
-        },
-        {
             title: "E-Commerce Website",
             desc: "Full Stack Shopping Website",
             link: "https://eco-vite.netlify.app"
