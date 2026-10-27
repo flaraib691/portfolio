@@ -3,8 +3,13 @@ function Projects() {
     const projects = [
         {
             title: "E-Commerce Website",
-            desc: "Full Stack Shopping Website",
+            desc: "Frontend Website",
             link: "https://eco-vite.netlify.app"
+        },
+        {
+            title: "Recipie-finer website",
+            desc: "A responsive Recipe Finder website built with React to discover delicious recipes.",
+            link: "https://laraib-recipes-website.netlify.app/"
         },
         {
             title: "Portfolio Website",
