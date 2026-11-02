@@ -11,8 +11,8 @@ function About() {
       </p>
 
       <p>
-        I have experience working with technologies like ,  html , css , JavaScript ,  React , Node.js , Express.js,
-        MongoDB, and MySQL. I focus on writing scalable, maintainable, and
+        I have experience working with technologies like ,  Html , Css , JavaScript ,  React , Node.js , Express.js,
+        MongoDB, SQL ,Git and Github. I focus on writing scalable, maintainable, and
         performance-optimized applications.
       </p>
 
